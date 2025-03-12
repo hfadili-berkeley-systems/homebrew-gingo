@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-GITHUB_URL="https://github.com/hfadili-berkeley-systems/homebrew-gingo/releases/download/v1.0.6"
+GITHUB_URL="https://github.com/hfadili-berkeley-systems/homebrew-gingo/releases/download/v1.0.7"
 
 # Detect OS and set the correct binary
 if [[ "$OSTYPE" == "darwin"* ]]; then
