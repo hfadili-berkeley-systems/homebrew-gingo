@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-GITHUB_URL="https://github.com/hfadili-berkeley-systems/homebrew-gingo/releases/download/v1.0.5"
+GITHUB_URL="https://github.com/hfadili-berkeley-systems/homebrew-gingo/releases/download/v1.0.6"
 
 # Detect OS and set the correct binary
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -32,4 +32,4 @@ curl -L -o gingo "$GITHUB_URL/$FILE"
 chmod +x gingo
 sudo mv gingo /usr/local/bin/
 
-echo "Installation complete! Run 'gingo --version' to check."
+echo "Installation complete! Run 'gingo version' to check."
