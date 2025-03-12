@@ -1,5 +1,5 @@
 class gingo < Formula
-    desc "Gingo is a simple CLI tool to generate a Go project layout."
+    desc "Gingo a simple and efficient CLI tool for generating a structured Go project layout. Whether you're starting a new project or looking to adopt best practices in structuring your Go code, Gingo provides a clean and maintainable foundation."
     homepage "https://github.com/hfadili-berkeley-systems/homebrew-gingo"
     version "1.0.0"
   
