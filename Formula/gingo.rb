@@ -1,4 +1,4 @@
-class Myapp < Formula
+class gingo < Formula
     desc "Gingo is a simple CLI tool to generate a Go project layout."
     homepage "https://github.com/hfadili-berkeley-systems/homebrew-gingo"
     version "1.0.0"
